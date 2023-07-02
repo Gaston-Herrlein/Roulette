@@ -1,6 +1,6 @@
-export const ResetButton = () => {
+export const ResetButton = ({handleReset}) => {
     return (
-      <button type="button" id="reset">
+      <button type="button" id="reset" onClick={()=> {handleReset()}}>
         Resetear
       </button>
     );

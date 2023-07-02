@@ -1,11 +1,11 @@
 import { SpinButton } from "./button/SpinButton";
 import { ResetButton } from "./button/ResetButton";
 
-export const ButtonsContainer = () => {
+export const ButtonsContainer = ({handleSpin, handleReset}) => {
   return (
-    <div class="button-container">
-      <SpinButton />
-      <ResetButton />
+    <div className="button-container">
+      <SpinButton handleSpin={handleSpin}/>
+      <ResetButton handleReset={handleReset}/>
     </div>
   );
 };

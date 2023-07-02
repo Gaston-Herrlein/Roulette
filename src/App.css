@@ -16,13 +16,16 @@ body {
 
 .button-container button {
   border: none;
+  border-radius: 10px;
   outline: none;
-  padding: 15px 100px;
+  height: 50px;
+  width: 170px;
   background: #2287ed;
   color: #fff;
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
+  margin: 0px auto;
 }
 
 .button-container button:hover {
