@@ -1,10 +1,10 @@
 import { ButtonsContainer } from "./components/Buttons";
 import { RouletteSectionContainer } from "./components/RouletteServiceContainer";
 
-import "./App.css"
+import "./App.css";
 import "./style/roulette-colors.css";
 import "./style/roulette-rotations.css";
-import "./style/roulette.css"; 
+import "./style/roulette.css";
 
 function App() {
   const minSpins = 1;
@@ -28,7 +28,7 @@ function App() {
     const roulette = document.getElementById("roulette");
     roulette.style.transform = `rotate(${spin}deg)`;
     roulette.style.transitionDuration = `${animationTime}s`;
-  }
+  };
 
   const handleReset = () => {
     const roulette = document.getElementById("roulette");
@@ -36,14 +36,13 @@ function App() {
     roulette.style.transitionDuration = "1.5s";
   };
 
-  
   return (
     <>
       <main>
         <section className="roulette-container">
           <div id="selector"></div>
           <RouletteSectionContainer />
-          <ButtonsContainer handleSpin={handleSpin} handleReset={handleReset}/>
+          <ButtonsContainer handleSpin={handleSpin} handleReset={handleReset} />
         </section>
       </main>
     </>
