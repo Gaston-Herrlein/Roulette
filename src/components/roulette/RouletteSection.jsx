@@ -1,4 +1,4 @@
-const styles = [
+const stylesRotation = [
   {
     transform: "skewY(0deg) rotate (52deg)",
     WebkitTransform: "skewY(0deg) rotate (52deg)",
@@ -57,17 +57,27 @@ const styles = [
   },
 ];
 
-const generationRotationContainerStyle = (styles, list) => {
-  return styles[list.length - 4];
+const generationRotationContainerStyle = (stylesRotation, list) => {
+  return stylesRotation[list.length - 4];
 };
 
 
 export const RouletteSection = ({ section, rotation, list }) => {
   return (
     <div className="roulette-section" style={rotation}>
-      <div className="roulette-section-container" style={generationRotationContainerStyle (styles, list)}>
+      <div className="roulette-section-container" style={generationRotationContainerStyle (stylesRotation, list)}>
         <p>{section}</p>
       </div>
     </div>
   );
 };
+
+
+/*
+  Transformacion de estilos que deberia hacer
+
+  #roulette .roulette-section .roulette-section-container 
+  {
+    MozTransform: skewY(50deg) rotate(15deg);
+  }
+*/
