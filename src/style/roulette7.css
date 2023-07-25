@@ -1,0 +1,13 @@
+#roulette .roulette-section .roulette-section-container7 {
+    position: absolute;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    text-align: center;
+    padding-top: 60px;
+    transform: "transform: skewY(39deg) rotate (27deg)";
+    -webkit-transform: "transform: skewY(39deg) rotate (27deg)";
+    -moz-transform: "transform: skewY(39deg) rotate (27deg)";
+    -ms-transform: "transform: skewY(39deg) rotate (27deg)";
+    -o-transform: "transform: skewY(39deg) rotate (27deg)"
+}

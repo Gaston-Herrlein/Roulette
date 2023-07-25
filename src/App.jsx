@@ -5,6 +5,16 @@ import "./App.css";
 import "./style/roulette-colors.css";
 import "./style/roulette-rotations.css";
 import "./style/roulette.css";
+import "./style/roulette3.css";
+import "./style/roulette4.css";
+import "./style/roulette5.css";
+import "./style/roulette6.css";
+import "./style/roulette7.css";
+import "./style/roulette8.css";
+import "./style/roulette9.css";
+import "./style/roulette10.css";
+import "./style/roulette11.css";
+import "./style/roulette12.css";
 
 function App() {
   const minSpins = 1;
