@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const stylesRotation = [
   {
     transform: "skewY(0deg) rotate (52deg)",
@@ -72,6 +74,12 @@ export const RouletteSection = ({ section, rotation, list }) => {
   );
 };
 
+
+RouletteSection.propTypes = {
+  section: PropTypes.string,
+  rotation: PropTypes.object,
+  list: PropTypes.string
+}
 
 /*
   Transformacion de estilos que deberia hacer

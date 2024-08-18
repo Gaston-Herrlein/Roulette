@@ -4,7 +4,7 @@ import { RouletteSection } from "./roulette/RouletteSection";
 
 import axios from "axios";
 
-const url = "3001/projects";
+const url = "3000/projects";
 
 const projectList = (url) => {
   return axios.get("http://localhost:" + url);
@@ -36,10 +36,10 @@ export const RouletteSectionContainer = () => {
   useEffect(() => {
     projectList(url)
       .then((response) => {
-        setList(response.data);
+        setList(response.data.list);
         setRadio(radioCalc(response.data));
       })
-      .catch((error) => console.error());
+      .catch((error) => console.error(error));
   }, []);
 
   return (
