@@ -1,16 +1,19 @@
 {
-    "projects": [
-        "Borrar tu codigo",
-        "Apagar la computadora",
-        "Formatear computadora",
-        "Compra helado",
-        "Toma descanso",
-        "Huevo en tu cabeza",
-        "Tira la laptop",
-        "$1,00USD a tus subs",
-        "Comer snack",
-        "Jugar un rato",
-        "!Terminar tu tarea¡",
-        "Vuelve a grabar"
-        ]
+  "projects": {
+    "id": "1",
+    "list": [
+      "Borrar tu codigo",
+      "Apagar la computadora",
+      "Formatear computadora",
+      "Compra helado",
+      "Toma descanso",
+      "Huevo en tu cabeza",
+      "Tira la laptop",
+      "$1,00USD a tus subs",
+      "Comer snack",
+      "Jugar un rato",
+      "!Terminar tu tarea¡",
+      "Vuelve a grabar"
+    ]
+  }
 }
